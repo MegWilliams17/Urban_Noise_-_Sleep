@@ -1,10 +1,12 @@
-# 🌃  The NYC Nightlife Noise Pulse
+# 🌃  The 2015 NYC Nightlife Noise Pulse: A Historical Analysis
 ## **_An Analysis of Commercial Disturbance and Residential Sleep Vulnerability_**
 
 
 
-## 📌 Executive Summary
-This project analyzes **118,676** noise complaints to identify where nighttime commercial activity creates the highest risk for residential sleep interference. By mapping 5**2,260** specific nighttime events (11 PM – 5 AM), I identified the neighborhoods and hours where the city’s "nightlife pulse" is most intense.
+## 📌 Executive Summary (Historical Baseline: 2015)
+This project analyzes **118,676** noise complaints to establish a 2015 historical baseline of NYC's nighttime commercial activity. By mapping **52,260** specific nighttime events **(11 PM – 5 AM)**, I identified the neighborhoods and hours where the city’s "nightlife pulse" was most intense a decade ago.
+
+This analysis serves as the foundation for a comparative study against 2025 data, aiming to track the evolution of urban noise and its persistent risk to residential sleep vulnerability over a ten-year period.
 
 ### 🔍 Key Insights
 
@@ -99,3 +101,8 @@ This analysis proves that commercial noise is a significant urban stressor peaki
 1. **Targeted Enforcement:** Prioritize noise mitigation in the 10034 and 10002 zip codes specifically between 10 PM and Midnight.
 
 2. **Acoustic Planning:** City planners should implement stricter soundproofing ordinances and acoustic mitigation for new commercial developments in the identified Top 10 Zip Codes.
+
+
+
+## **🚀 The Future Work:** 
+I am currently processing 2025 NYC 311 data to conduct a comparative study. I aim to identify how the "Noise Axis" has shifted geographically over the last decade and how reporting volumes have evolved.
