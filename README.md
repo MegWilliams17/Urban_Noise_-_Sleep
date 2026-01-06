@@ -42,7 +42,7 @@ To understand the impact on residents, I analyzed the volume of complaints by ho
 
 
 <div align="center">
-  <img src="NYCCommercialNoisePulse.png" width="90%">
+  <img src="Historical_2015/NYCCommercialNoisePulse.png" width="90%">
   <p><i>Figure 1: The 11 PM Pulse — Hourly distribution of commercial noise complaints.</i></p>
 </div>
 
@@ -59,7 +59,7 @@ I mapped Zip Codes to actual neighborhood names to provide human context. While 
 
 
 
-![The Impact](NYCNeighbourhoods.png)
+![The Impact](Historical_2015/NYCNeighbourhoods.png)
 
 
 
