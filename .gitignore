@@ -1,1 +1,13 @@
-311_Service_Requests_from_2010_to_Present.csv
+# Ignore ALL CSV files anywhere in the project
+*.csv
+
+# Ignore the data folder entirely
+data/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore large temporary files
+*.log
+*.zip
