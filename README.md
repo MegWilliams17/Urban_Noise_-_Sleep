@@ -18,8 +18,8 @@ This project analyzes **118,676** noise complaints to identify where nighttime c
 
 Before diving into specific numbers, I mapped the total density of complaints. The heatmap reveals a concentrated "Noise Axis" running from Upper Manhattan through the East Village and into the Northern Brooklyn corridor.
 
-👉 **[Click here to view the Interactive Heatmap](nyc_sleep_risk_map.html)**
-*(Note: To interact with the map, open the `nyc_sleep_risk_map.html` file in any web browser.)*
+👉 **[Explore the Live Interactive Heatmap](https://megwilliams17.github.io/Urban_Noise_-_Sleep/nyc_sleep_risk_map.html)**
+*(Note: This map is best viewed on a desktop browser for full interactivity.)*
 
 
 
