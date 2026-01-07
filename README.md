@@ -100,6 +100,15 @@ In 2025, I expanded the study to include **Residential Noise**, revealing a city
 | Noise - Vehicle | 2,328 |
 | Noise - Park/Other | 458 |
 
+
+
+<div align="center">
+  <img src="Current_2025/general_noise_bar_categories_2025.png" width="90%">
+  <p><i>Figure 3: General Night Noise Categories (2025).</i></p>
+</div>
+
+
+
 **_Insight:_** Residential noise is now the undisputed "King of Complaints," occurring at nearly **7x the volume** of commercial nightlife noise.
 
 ---
@@ -121,7 +130,7 @@ When looking at every type of noise (Street, Commercial, Vehicle, etc.) between 
 
 <div align="center">
   <img src="Current_2025/general_noise_bar_2025.png" width="90%">
-  <p><i>Figure 2: Top 10 General Night Noise Hotspots (2025).</i></p>
+  <p><i>Figure 4: Top 10 General Night Noise Hotspots (2025).</i></p>
 </div>
 
 | Rank | Zip Code | Neighborhood | Complaint Count |
@@ -162,8 +171,8 @@ To pinpoint sleep vulnerability, I isolated **Residential-Only** noise. The Bron
 Residential noise creates a high-volume "plateau" that disrupts sleep throughout the entire night, rather than just a single peak hour.
 
 <div align="center">
-  <img src="2025_Data/Residential_Noise_Pulse_2025.png" width="90%">
-  <p><i>Figure 3: The 2025 Residential Pulse — Sustained nighttime disruption.</i></p>
+  <img src="Current_2025/residential_noise_line_2025.png" width="90%">
+  <p><i>Figure 5: The 2025 Residential Pulse — Sustained nighttime disruption.</i></p>
 </div>
 
 ---
@@ -172,8 +181,8 @@ Residential noise creates a high-volume "plateau" that disrupts sleep throughout
 In 2025, the commercial "Noise Axis" shifted. While Inwood led in 2015, the **Lower East Side** and **North Brooklyn** now dominate the commercial nightlife landscape.
 
 <div align="center">
-  <img src="2025_Data/Commercial_Bar_Chart_2025.png" width="90%">
-  <p><i>Figure 4: Top 10 Commercial Noise Hotspots (2025).</i></p>
+  <img src="Current_2025/commercial_noise_bar_2025.png" width="90%">
+  <p><i>Figure 6 Top 10 Commercial Noise Hotspots (2025).</i></p>
 </div>
 
 | Neighborhood | Zip Code | Commercial Count |
@@ -186,8 +195,8 @@ In 2025, the commercial "Noise Axis" shifted. While Inwood led in 2015, the **Lo
 The commercial intensity has tripled over the decade. The "Pulse" still peaks at 11 PM but at a much more aggressive scale.
 
 <div align="center">
-  <img src="2025_Data/Commercial_Noise_Pulse_2025.png" width="90%">
-  <p><i>Figure 5: The 2025 Commercial Pulse — The Nightlife Intensity.</i></p>
+  <img src="Current_2025/Commercial_noise_line_2025.png" width="90%">
+  <p><i>Figure 7: The 2025 Commercial Pulse — The Nightlife Intensity.</i></p>
 </div>
 
 ---
@@ -233,4 +242,4 @@ This 10-year study proves NYC is in a "Noise Explosion." While commercial noise 
 
 
 ## **🚀 The Future Work:** 
-I am now building an interactive **Geospatial Dashboard** in the `Comparison_Dashboard/` folder to allow users to visualize this 10-year noise migration in real-time.
+I am now building an interactive **Geospatial Dashboard** in the `Comparison_Report/` folder to allow users to visualize this 10-year noise migration in real-time.
