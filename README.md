@@ -87,18 +87,19 @@ In 2025, I expanded the study to include **Residential Noise**, revealing a city
 ### 🔍 Key Insights (2025)
 - **Total Noise Complaints in 2025:** **199,556** (Successfully loaded for this analysis)
 - **Total Nighttime Noise Events:** **63,640** (A significant increase in nighttime disruption compared to the 2015 baseline).
-- **Growth Trend:** A **~69% increase** in city-wide noise reporting over a single decade.
+- **Growth Trend:** A **~69% increase** in city-wide noise reporting over a single decade. 
+- **The Bronx Volume Surge:** With the full 2025 dataset now unlocked, the scale of the crisis is undeniable. The Bronx recorded **278,956 total general noise complaints** in 2025. When compared to the 16,283 complaints filed in 2015, we are looking at a **1,613% increase** in auditory disruption over the decade. This confirms that the Bronx has officially replaced Manhattan as the city's primary friction zone.
 - **The 10-Year Ranking Shift:** In 2015, **Inwood (10034)** was the #1 noise hotspot in NYC. By 2025, it dropped to **Rank #22** with 600 nighttime complaints, as the "Noise Axis" migrated toward the Bronx and Lower Manhattan.
 
 - **2025 Nighttime Culprits (11 PM - 5 AM):**
 
 | Complaint Type | Count |
 | :--- | :--- |
-| **Noise - Residential** | **43,771** |
-| Noise - Street/Sidewalk | 8,004 |
-| Noise - Commercial | 6,582 |
-| Noise - Vehicle | 2,328 |
-| Noise - Park/Other | 458 |
+| **Noise - Residential** | **158,948** |
+| Noise - Street/Sidewalk | 63,262 |
+| Noise - Commercial | 29,684 |
+| Noise - Vehicle | 12,793 |
+| Noise - Park/Other | 3,953 |
 
 
 
@@ -109,7 +110,7 @@ In 2025, I expanded the study to include **Residential Noise**, revealing a city
 
 
 
-**_Insight:_** Residential noise is now the undisputed "King of Complaints," occurring at nearly **7x the volume** of commercial nightlife noise.
+**_Insight:_** Residential noise is now the undisputed "King of Complaints," occurring at nearly 2.5x the rate of street noise and over **5x the volume** of commercial nightlife noise.
 
 ---
 
@@ -126,7 +127,7 @@ The 2025 Heatmap reveals a dramatic migration of noise. While the 2015 map was c
 **_Spatial Insight:_** The 2025 heatmap confirms that noise is no longer just a "Manhattan Nightlife Problem." The density in **Wakefield (10466)** and **Bushwick (11237)** shows that residential areas are now facing the highest levels of nighttime disruption.
 
 ### **General Nighttime Hotspots (All Categories)**
-When looking at every type of noise (Street, Commercial, Vehicle, etc.) between 11 PM and 5 AM, **Wakefield (10466)** stands as a massive statistical anomaly, recording over **15,000** more events than the next closest neighborhood.
+When looking at every type of noise (Street, Commercial, Vehicle, etc.) between 11 PM and 5 AM, **Wakefield (10466)** stands as a massive statistical anomaly, recording over **35,000** more events than the next closest neighborhood.
 
 <div align="center">
   <img src="Current_2025/general_noise_bar_2025.png" width="90%">
@@ -136,13 +137,23 @@ When looking at every type of noise (Street, Commercial, Vehicle, etc.) between 
 | Rank | Zip Code | Neighborhood | Complaint Count |
 | :--- | :--- | :--- | :--- |
 | **1** | **10466** | **Wakefield (Bronx)** | **15,728** |
-| 2 | 11368 | Corona (Queens) | 1,189 |
+| 2 | 10452 | Highbridge (Bronx) | 5135 |
+| 3 | 10456 | Morrisania (Bronx) | 5,047 |
+| 4 | 11368 | Corona (Queens) | 4,726 |
+| 5 | 10031 | Hamilton Heights (Manhattan) | 4579 |
+| 6 | |10002| Lower East Side |4377 |
+| 7 | 11206 | Williamsburg/Stuy-Heights | 4,208 |
+| 8 | 10029 | East Harlem (Manhattan) | 3,996 |
+| 9 | 10032 | Washington Heights (South) | 3,924 |
+| 10| 11237 | Bushwick (Brooklyn) | 3,898 |
+
+
 | 3 | 10456 | Morrisania (Bronx) | 1,164 |
 | 4 | 10002 | Lower East Side (Manhattan) | 954 |
-| 5 | 11237 | Bushwick (Brooklyn) | 898 |
-| 6 | 10031 | Hamilton Heights (Manhattan) | 828 |
-| 7 | 11206 | Williamsburg/Stuy-Heights | 822 |
-| 8 | 10029 | East Harlem (Manhattan) | 803 |
+
+
+
+
 | 9 | 10468 | Fordham (Bronx) | 772 |
 | 10 | 10458 | Belmont (Bronx) | 724 |
 
@@ -153,18 +164,26 @@ To pinpoint sleep vulnerability, I isolated **Residential-Only** noise. The Bron
 
 | Rank | Zip Code | Neighborhood | Residential Complaints (11PM-5AM) |
 | :--- | :--- | :--- | :--- |
-| **1** | **10466** | **Wakefield (Bronx)** | **15,676** |
-| 2 | 10456 | Morrisania (Bronx) | 1,047 |
-| 3 | 10468 | Fordham (Bronx) | 653 |
-| 4 | 10029 | East Harlem (Manhattan) | 585 |
-| 5 | 10467 | Williamsbridge (Bronx) | 564 |
-| 6 | 10452 | Highbridge (Bronx) | 490 |
-| 7 | 10031 | Hamilton Heights (Manhattan) | 475 |
-| 8 | 11233 | Bedford-Stuyvesant (Brooklyn) | 463 |
-| 9 | 10458 | Belmont (Bronx) | 461 |
+| **1** | **10466** | **Wakefield (Bronx)** | **34,695** |
+| 2 | 10456 | Morrisania (Bronx) | 3,224 |
+| 3 | 10467 | Williamsburg / Bushwick / Bed-Stuy (Brooklyn)| 2,484 |
+| 4 | 10452 | Highbridge (Bronx) | 2,206 |
+| 5 | 11207 | Hamilton Heights (Manhattan) | 2173 |
+| 6 | 10029 | East Harlem (Manhattan) | 2,104 |
+| 7 | 11221 | Bushwick / Bedford-Stuyvesant (Brooklyn) |2,037 |
+| 8 | 11233 | Bedford-Stuyvesant (Brooklyn) | 2,022 |
+| 9 | 10468 | Fordham (Bronx) | 2,015 |
+| 10 | 10458 | Belmont (Bronx) | 1,901 |
+
+
+
+
+
+
+
 | 10 | 11226 | Flatbush (Brooklyn) | 455 |
 
-**_Insight:_** In **Wakefield (10466)**, 99.6% of all nighttime noise is residential. This suggests a localized crisis that standard nightlife policing (focused on bars) will not solve.
+**_Insight:_** In **Wakefield (10466)**, 98.2% of all nighttime noise is residential and it alone accounts for nearly 22% of all nighttime residential noise. This suggests a localized crisis that standard nightlife policing (focused on bars) will not solve.
 
 
 ## 📉 2025 The Residential Pulse (The "When")
@@ -187,9 +206,9 @@ In 2025, the commercial "Noise Axis" shifted. While Inwood led in 2015, the **Lo
 
 | Neighborhood | Zip Code | Commercial Count |
 | :--- | :---| :--- |
-|**Lower East Side**|10002 |326 |
-| **Williamsburg** |11211 |268 | 
-| **Ridgewood** | 11385 |267 | 
+|**Lower East Side**|10002 |1438 |
+| **Williamsburg/Bushwick** |11206 |1177 | 
+| **Ridgewood** | 11385 |1028 | 
 
 ## 📉 2025 The Commercial Pulse
 The commercial intensity has tripled over the decade. The "Pulse" still peaks at 11 PM but at a much more aggressive scale.
@@ -214,6 +233,8 @@ To differentiate between two distinct datasets, I implemented a Dual-Gradient St
 
 - **2015 Audit:** A critical part of this project was a Data Integrity Audit.
 
+- **The Geospatial "Heal" & Validation:** To maintain 10-year integrity, I bridged "Schema Drift" caused by NYC Open Data changing coordinate naming conventions between 2015 and 2025. I implemented a non-destructive Python pipeline to re-map legacy coordinates into the modern schema, achieving a **99.51% overall geospatial hit rate**. A secondary validation audit revealed that the minor 0.49% of missing coordinates were primarily concentrated in "Unspecified" borough entries and legacy 2015 records, ensuring that the final visualizations for the Bronx and Manhattan remain high-fidelity and statistically representative.
+
 - **The Problem:** I originally intended to compare Residential vs. Commercial noise ratios. However, I discovered that 'Residential' descriptors in this 311 subset were exclusively linked to Animal Welfare cases.
 
 - **The Action:** To maintain scientific honesty, I pivoted to a Volume & Density Analysis of Commercial noise, ensuring the final results were accurate and verified.
@@ -236,7 +257,7 @@ This 10-year study proves NYC is in a "Noise Explosion." While commercial noise 
 
 
 ### **Evolved Recommendations (Based on 2025 Data)**
-1.  **The Wakefield Task Force:** Immediate investigation into the **10466 (Wakefield)** outlier. 15,000+ complaints suggest a systemic residential crisis requiring specific mediation rather than standard police response.
+1.  **The Wakefield Task Force:** Immediate investigation into the **10466 (Wakefield)** outlier. 85,151 general noise complaints across all hours in the Bronx in just 80 days of data suggest a systemic environmental crisis and 15,000+ complaints suggest a systemic residential crisis requiring specific mediation rather than standard police response.
 2.  **Dynamic Nightlife Buffer:** Shift commercial enforcement focus from Inwood to the **Lower East Side (10002)** and **Williamsburg (11211)**, focusing specifically on the "11 PM Pulse" window.
 3.  **Data Integrity:** The city should continue the granular classification used in 2025, as the 2015 "Animal Welfare" classification gap proved how easily residential suffering can be hidden in data.
 
