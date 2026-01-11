@@ -141,21 +141,13 @@ When looking at every type of noise (Street, Commercial, Vehicle, etc.) between 
 | 3 | 10456 | Morrisania (Bronx) | 5,047 |
 | 4 | 11368 | Corona (Queens) | 4,726 |
 | 5 | 10031 | Hamilton Heights (Manhattan) | 4579 |
-| 6 | |10002| Lower East Side |4377 |
+| 6 | 10002| Lower East Side |4377 |
 | 7 | 11206 | Williamsburg/Stuy-Heights | 4,208 |
 | 8 | 10029 | East Harlem (Manhattan) | 3,996 |
 | 9 | 10032 | Washington Heights (South) | 3,924 |
 | 10| 11237 | Bushwick (Brooklyn) | 3,898 |
 
 
-| 3 | 10456 | Morrisania (Bronx) | 1,164 |
-| 4 | 10002 | Lower East Side (Manhattan) | 954 |
-
-
-
-
-| 9 | 10468 | Fordham (Bronx) | 772 |
-| 10 | 10458 | Belmont (Bronx) | 724 |
 
 
 
@@ -181,7 +173,6 @@ To pinpoint sleep vulnerability, I isolated **Residential-Only** noise. The Bron
 
 
 
-| 10 | 11226 | Flatbush (Brooklyn) | 455 |
 
 **_Insight:_** In **Wakefield (10466)**, 98.2% of all nighttime noise is residential and it alone accounts for nearly 22% of all nighttime residential noise. This suggests a localized crisis that standard nightlife policing (focused on bars) will not solve.
 
